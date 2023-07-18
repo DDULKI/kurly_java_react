@@ -1,0 +1,16 @@
+깃허브 배포
+
+1. 프로젝트 공백없이 폴더명은 짧게 만든다. 
+2. vscode로 준비 
+3. 깃설정 
+git init 
+git config user.name 'ddulki'
+ls -la
+git config user.email 'seulki4994@naver.com'
+git config user.email
+
+git remote add origin https://github.com/DDULKI/kurly_java_react.git
+git remote -v 
+
+git add .
+git commit -m '마켓컬리 자바기반 리액트 프로젝트'
