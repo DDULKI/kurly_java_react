@@ -14,3 +14,18 @@ git remote -v
 
 git add .
 git commit -m '마켓컬리 자바기반 리액트 프로젝트'
+git push origin master
+
+
+패키지. 제이슨 
+"homepage": "https://ddulki.github.io/kurly_java_react"
+
+npm install --save gh-pages
+
+
+패키지 제인 scripts안에 넣기 
+"predeploy": "npm run build",
+"deploy": "gh-pages -b master -d build"
+
+그 다음 , 
+npm run deploy
